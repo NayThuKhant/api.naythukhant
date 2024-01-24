@@ -61,9 +61,12 @@ return [
 
     'providers' => [
         'users' => [
+            'driver' => 'statamic',
+        ],
+        /*'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
-        ],
+        ],*/
 
         // 'users' => [
         //     'driver' => 'database',
